@@ -2,9 +2,6 @@
 # Copyright (C) 2018-2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
-
-$(call inherit-product, vendor/gapps/config.mk)
-
 #
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
@@ -15,10 +12,7 @@ $(call inherit-product, vendor/oneplus/hotdogg/hotdogg-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
+    $(LOCAL_PATH)/overlay-yaap
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -52,10 +46,6 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.oneplus_msmnile
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
@@ -63,5 +53,3 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-$(call inherit-product, vendor/gapps/config.mk)
