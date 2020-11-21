@@ -340,7 +340,10 @@
     <integer name="config_lightSensorWarmupTime">200</integer>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-    <integer translatable="false" name="config_brightness_ramp_rate_fast">400</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">355</integer>
+
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">240</integer>
+
 
     <!-- Radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">48px</dimen>
