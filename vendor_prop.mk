@@ -4,4 +4,4 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.telephony.default_network=33 \
     ro.vendor.boot.project_name=19861 \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
-    vendor.boot.verifiedbootstate=orange
+    vendor.boot.fingerprintbstate=orange
