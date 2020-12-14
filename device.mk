@@ -47,10 +47,6 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.oneplus_msmnile
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
