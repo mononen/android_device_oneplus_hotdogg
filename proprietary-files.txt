@@ -1,5 +1,3 @@
-# All unpinned blobs below are extracted from OnePlus7TProOxygen_14.O.16_OTA_016_all_2003271946_40584bc2
-
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -431,6 +429,7 @@ vendor/firmware/aw8697_haptic_168.bin
 vendor/firmware/aw8697_haptic_170.bin
 vendor/firmware/aw8697_haptic_172.bin
 vendor/firmware/aw8697_haptic_174.bin
+vendor/firmware/notif_Ardour.bin
 vendor/firmware/notif_allusion.bin
 vendor/firmware/notif_amiable.bin
 vendor/firmware/notif_blare.bin
@@ -454,6 +453,8 @@ vendor/firmware/notif_silent.bin
 vendor/firmware/notif_spirit.bin
 vendor/firmware/notif_surprise.bin
 vendor/firmware/notif_twinkle.bin
+vendor/firmware/notif_Chic.bin
+vendor/firmware/ring_McLarn.bin
 vendor/firmware/ring_alacrity.bin
 vendor/firmware/ring_amenity.bin
 vendor/firmware/ring_blues.bin
