@@ -1,3 +1,14 @@
+# ADSP
+vendor/lib/libadsprpc.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+vendor/lib64/libadsprpc.so
+vendor/lib64/libmdsprpc.so
+
+# ADSP Modules
+vendor/lib/rfsa/adsp/libVC1Dec.so
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
+
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -9,17 +20,6 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-
-# ADSP
-vendor/lib/libadsprpc.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libmdsprpc.so
-
-# ADSP Modules
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 
 # Audio
 vendor/etc/dolby/dax-default.xml
@@ -150,18 +150,6 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
-# Qualcomm MDM Interface
-vendor/bin/ks
-vendor/bin/mdm_helper
-vendor/bin/mdm_helper_proxy
-vendor/bin/oemnvbkdaemon
-vendor/bin/init.mdm.sh
-vendor/lib/libmdmdetect.so
-vendor/lib/liboemnvbk_img_helper.so
-vendor/lib64/libmdmdetect.so
-vendor/lib64/liboemnvbk_img_helper.so
-vendor/lib64/libmdmimgload.so
-
 # GPS
 vendor/bin/slim_daemon
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
@@ -253,6 +241,18 @@ vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf
 # Perf
 vendor/lib/libperfconfig.so
 vendor/lib64/libperfconfig.so
+
+# Qualcomm MDM Interface
+vendor/bin/ks
+vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
+vendor/bin/oemnvbkdaemon
+vendor/bin/init.mdm.sh
+vendor/lib/libmdmdetect.so
+vendor/lib/liboemnvbk_img_helper.so
+vendor/lib64/libmdmdetect.so
+vendor/lib64/liboemnvbk_img_helper.so
+vendor/lib64/libmdmimgload.so
 
 # Qualcomm MSM Interface
 vendor/bin/pd-mapper
@@ -428,6 +428,7 @@ vendor/firmware/aw8697_haptic_170.bin
 vendor/firmware/aw8697_haptic_172.bin
 vendor/firmware/aw8697_haptic_174.bin
 vendor/firmware/notif_Ardour.bin
+vendor/firmware/notif_Chic.bin
 vendor/firmware/notif_allusion.bin
 vendor/firmware/notif_amiable.bin
 vendor/firmware/notif_blare.bin
@@ -451,8 +452,6 @@ vendor/firmware/notif_silent.bin
 vendor/firmware/notif_spirit.bin
 vendor/firmware/notif_surprise.bin
 vendor/firmware/notif_twinkle.bin
-vendor/firmware/notif_Chic.bin
-vendor/firmware/ring_McLarn.bin
 vendor/firmware/ring_alacrity.bin
 vendor/firmware/ring_amenity.bin
 vendor/firmware/ring_blues.bin
@@ -481,6 +480,7 @@ vendor/firmware/ring_optimistic.bin
 vendor/firmware/ring_piano.bin
 vendor/firmware/ring_pyxis.bin
 vendor/firmware/ring_T-Jingle.bin
+vendor/firmware/ring_McLarn.bin
 vendor/firmware/shuntai24k_rtp.bin
 vendor/firmware/wentai24k_rtp.bin
 
