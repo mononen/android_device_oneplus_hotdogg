@@ -139,7 +139,6 @@ vendor/firmware/widevine.b07
 vendor/firmware/widevine.mdt
 
 # Fingerprint
--vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/lib/hw/goodix.fod.msmnile.so
 vendor/lib/fp_hal_extension.so
 vendor/lib/libgf_ud_hal.so
