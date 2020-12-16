@@ -315,7 +315,6 @@ vendor/lib64/libsettings.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
 vendor/radio/qcril_database/qcril.db
-vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 # Radio - IMS
 vendor/lib/lib-imsrcs-v2.so
