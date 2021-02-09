@@ -1,14 +1,8 @@
 PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.radio.multisim.config=ssss \
-    ro.telephony.default_network=30 \
     persist.vendor.radio.5g_mode_pref=1 \
+    ro.telephony.default_network=30,30 \
     ro.vendor.boot.project_name=19861 \
     ro.boot.project_name=19861 \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
-    vendor.boot.fingerprintbstate=orange \
-    dalvik.vm.heapstartsize=24m \
-    dalvik.vm.heapgrowthlimit=384m \
-    dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.42 \
-    dalvik.vm.heapminfree=8m \
-    dalvik.vm.heapmaxfree=56m
+    vendor.boot.fingerprintbstate=orange
